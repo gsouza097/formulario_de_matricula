@@ -8,6 +8,10 @@ label + .radio-wrapper {
     gap:1rem;
 }
 
+.sports-radio {
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .radio-inner {
 
     border: 1px solid var(--stroke-default);
